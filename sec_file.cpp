@@ -14,6 +14,7 @@ int main() {
     int num_datas{};
     cout << "How much data do you want to enter: ";
     cin >> num_datas;
+    cout << "Thank you" << endl;
     
     vector <int> data{};
     
