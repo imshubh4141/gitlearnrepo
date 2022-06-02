@@ -13,7 +13,7 @@ const port = 3000;
 
 const start = async () => {
   try {
-    //connect to server only after succesful DB connection
+    //connect to server only after successful DB connection
     await connectDB(process.env.MONGO_URI);
     app.listen(port, () => console.log(`Server running on port ${port}...`));
   } catch (err) {
